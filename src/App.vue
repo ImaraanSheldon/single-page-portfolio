@@ -16,7 +16,13 @@ export default{
   components:{
     navComp,
     footerComp
-  }
+  },
+  computed:{
+    Home(){
+      return this.$store.state.Home
+    },
+  },
+
 }
 </script>
 
