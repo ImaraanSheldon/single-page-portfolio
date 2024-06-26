@@ -1,6 +1,8 @@
 <template>
   <div class="container">
-    <section class="row" id="landing"></section>
+    <section class="row" id="landing">
+      <landingComp/>
+    </section>
     <section class="row" id="services"></section>
     <section class="row" id="work"></section>
     <section class="row" id="about"></section>
@@ -12,9 +14,12 @@
 
 <script>
 
+import landingComp from '../components/landingComp.vue'
+
 export default {
   name: 'HomeView',
   components: {
+    landingComp
   }
 }
 </script>
