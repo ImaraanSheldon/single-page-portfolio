@@ -1,5 +1,8 @@
 /* bootrap icons */
 /* Universal selector */
+::-webkit-scrollbar{
+    display:none;
+}
 /* Custom variable */
 /* logo */
 img{
@@ -30,4 +33,9 @@ section{
   
   nav a.router-link-exact-active {
     color: #42b983;
+  }
+  /* Wrapper */
+  :is(.wrapper){
+    display: grid;
+    grid-template-rows: repeat(auto minmax(100dvh, 100%) auto);
   }
